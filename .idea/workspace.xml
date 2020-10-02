@@ -2,17 +2,243 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="057b01fd-dc4d-4353-b025-59f61de7b27f" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/asm89/stack-cors/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/brick/math/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/composer/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/dnoegel/php-xdg-base-dir/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/doctrine/inflector/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/doctrine/instantiator/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/doctrine/lexer/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/dragonmantank/cron-expression/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/egulias/email-validator/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/facade/flare-client-php/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/facade/ignition/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/facade/ignition-contracts/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/fideloper/proxy/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/filp/whoops/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/fruitcake/laravel-cors/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/fzaninotto/faker/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/guzzlehttp/guzzle/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/guzzlehttp/promises/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/guzzlehttp/psr7/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/hamcrest/hamcrest-php/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/laravel/framework/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/laravel/tinker/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/league/commonmark/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/league/flysystem/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/mockery/mockery/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/monolog/monolog/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/myclabs/deep-copy/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/nesbot/carbon/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/nikic/php-parser/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/nunomaduro/collision/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/opis/closure/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/paragonie/random_compat/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/phar-io/manifest/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/phar-io/version/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/phpdocumentor/reflection-common/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/phpdocumentor/reflection-docblock/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/phpdocumentor/type-resolver/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/phpoption/phpoption/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/phpspec/prophecy/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/phpunit/php-code-coverage/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/phpunit/php-file-iterator/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/phpunit/php-text-template/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/phpunit/php-timer/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/phpunit/php-token-stream/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/phpunit/phpunit/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/psr/container/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/psr/event-dispatcher/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/psr/http-message/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/psr/log/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/psr/simple-cache/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/psy/psysh/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/ralouphie/getallheaders/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/ramsey/collection/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/ramsey/uuid/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/scrivo/highlight.php/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/sebastian/code-unit-reverse-lookup/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/sebastian/comparator/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/sebastian/diff/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/sebastian/environment/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/sebastian/exporter/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/sebastian/global-state/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/sebastian/object-enumerator/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/sebastian/object-reflector/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/sebastian/recursion-context/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/sebastian/resource-operations/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/sebastian/type/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/sebastian/version/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/swiftmailer/swiftmailer/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/console/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/css-selector/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/deprecation-contracts/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/error-handler/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/event-dispatcher/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/event-dispatcher-contracts/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/finder/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/http-foundation/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/http-kernel/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/mime/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/polyfill-ctype/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/polyfill-iconv/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/polyfill-intl-grapheme/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/polyfill-intl-idn/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/polyfill-intl-normalizer/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/polyfill-mbstring/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/polyfill-php70/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/polyfill-php72/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/polyfill-php73/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/polyfill-php80/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/process/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/routing/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/service-contracts/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/string/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/translation/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/translation-contracts/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/symfony/var-dumper/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/theseer/tokenizer/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/tijsverkoyen/css-to-inline-styles/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/vlucas/phpdotenv/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/voku/portable-ascii/" />
+    <ignored path="$PROJECT_DIR$/Laravel/vendor/webmozart/assert/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/Laravel/composer.json</pharConfigPath>
-    <execution />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2124741137">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="env" value="1" />
+          <entry key="example" value="1" />
+          <entry key="php" value="10" />
+          <entry key="scss" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Blade" value="8" />
+          <entry key="CSS" value="1" />
+          <entry key="PHP" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="SCSS" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="php" value="114" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Blade" value="110" />
+          <entry key="PHP" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Laravel/resources/views/layouts/_header.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Laravel/resources/views/layouts/_footer.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Laravel/resources/views/layouts/default.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Laravel/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="17" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Laravel/resources/sass/app.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Laravel/public/css/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Laravel/config/app.php" />
+        <option value="$PROJECT_DIR$/Laravel/resources/views/layouts/_header.blade.php" />
+        <option value="$PROJECT_DIR$/Laravel/resources/views/layouts/_footer.blade.php" />
+        <option value="$PROJECT_DIR$/Laravel/public/css/app.css" />
+        <option value="$PROJECT_DIR$/Laravel/resources/views/layouts/default.blade.php" />
+        <option value="$PROJECT_DIR$/Laravel/routes/web.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/Laravel/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/Laravel/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -116,9 +342,59 @@
       <path value="$PROJECT_DIR$/Laravel/vendor/phpunit/php-file-iterator" />
       <path value="$PROJECT_DIR$/Laravel/vendor/phpunit/php-code-coverage" />
       <path value="$PROJECT_DIR$/Laravel/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/laravel/ui" />
     </include_path>
   </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="789" />
+    <option name="y" value="19" />
+    <option name="width" value="1117" />
+    <option name="height" value="1047" />
+  </component>
   <component name="ProjectId" id="1h8HSdJngrlS19wQWb6SPERfRW6" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="laravel-weibo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-weibo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-weibo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-weibo" type="462c0819:PsiDirectoryNode" />
+              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-weibo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-weibo" type="462c0819:PsiDirectoryNode" />
+              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-weibo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-weibo" type="462c0819:PsiDirectoryNode" />
+              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-weibo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-weibo" type="462c0819:PsiDirectoryNode" />
+              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -127,8 +403,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="057b01fd-dc4d-4353-b025-59f61de7b27f" name="Default Changelist" comment="" />
@@ -137,16 +430,107 @@
       <option name="presentableId" value="Default" />
       <updated>1599385800013</updated>
       <workItem from="1599385801108" duration="2233000" />
+      <workItem from="1601611447016" duration="4558000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4558000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="789" y="19" width="1117" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30813396" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1020" y="446" key="NewPhpFileDialog" timestamp="1599395743738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1020" y="446" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599395743738" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Laravel/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="151" column="18" selection-start-line="151" selection-start-column="8" selection-end-line="151" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/.env">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/.env.example">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/resources/views/layouts/_header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/resources/views/layouts/_footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/public/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/resources/views/static_pages/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/resources/views/layouts/default.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
