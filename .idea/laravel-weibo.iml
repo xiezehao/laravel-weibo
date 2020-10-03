@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Laravel/tests" isTestSource="true" packagePrefix="Tests\" />
       <excludeFolder url="file://$MODULE_DIR$/Laravel/vendor/asm89/stack-cors" />
       <excludeFolder url="file://$MODULE_DIR$/Laravel/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/Laravel/vendor/caouecs/laravel-lang" />
       <excludeFolder url="file://$MODULE_DIR$/Laravel/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/Laravel/vendor/dnoegel/php-xdg-base-dir" />
       <excludeFolder url="file://$MODULE_DIR$/Laravel/vendor/doctrine/inflector" />
@@ -36,6 +37,7 @@
       <excludeFolder url="file://$MODULE_DIR$/Laravel/vendor/nikic/php-parser" />
       <excludeFolder url="file://$MODULE_DIR$/Laravel/vendor/nunomaduro/collision" />
       <excludeFolder url="file://$MODULE_DIR$/Laravel/vendor/opis/closure" />
+      <excludeFolder url="file://$MODULE_DIR$/Laravel/vendor/overtrue/laravel-lang" />
       <excludeFolder url="file://$MODULE_DIR$/Laravel/vendor/paragonie/random_compat" />
       <excludeFolder url="file://$MODULE_DIR$/Laravel/vendor/phar-io/manifest" />
       <excludeFolder url="file://$MODULE_DIR$/Laravel/vendor/phar-io/version" />
