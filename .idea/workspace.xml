@@ -115,7 +115,7 @@
     <session id="-2124741137">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
@@ -132,7 +132,7 @@
           <entry key="example" value="1" />
           <entry key="js" value="1" />
           <entry key="log" value="4" />
-          <entry key="php" value="104" />
+          <entry key="php" value="105" />
           <entry key="scss" value="4" />
         </counts>
       </usages-collector>
@@ -141,7 +141,7 @@
           <entry key="Blade" value="44" />
           <entry key="CSS" value="4" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="60" />
+          <entry key="PHP" value="61" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="SCSS" value="4" />
         </counts>
@@ -150,7 +150,7 @@
         <counts>
           <entry key="css" value="1" />
           <entry key="env" value="7" />
-          <entry key="php" value="3673" />
+          <entry key="php" value="3685" />
           <entry key="scss" value="9" />
           <entry key="stub" value="18" />
         </counts>
@@ -159,7 +159,7 @@
         <counts>
           <entry key="Blade" value="268" />
           <entry key="CSS" value="1" />
-          <entry key="PHP" value="3405" />
+          <entry key="PHP" value="3417" />
           <entry key="PLAIN_TEXT" value="25" />
           <entry key="SCSS" value="9" />
         </counts>
@@ -177,7 +177,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Laravel/app/Http/Controllers/FollowersController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="666">
@@ -211,15 +211,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Laravel/database/factories/UserFactory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Laravel/storage/logs/laravel.log">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
@@ -233,6 +224,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
               <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Laravel/app/Models/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-408">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="e#30#76#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -337,7 +340,6 @@
         <option value="$PROJECT_DIR$/Laravel/app/Http/Controllers/StatusesController.php" />
         <option value="$PROJECT_DIR$/Laravel/resources/views/statuses/_status.blade.php" />
         <option value="$PROJECT_DIR$/Laravel/database/migrations/2020_10_07_120945_create_followers_table.php" />
-        <option value="$PROJECT_DIR$/Laravel/app/Models/User.php" />
         <option value="$PROJECT_DIR$/Laravel/database/seeds/FollowersTableSeeder.php" />
         <option value="$PROJECT_DIR$/Laravel/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/Laravel/resources/views/static_pages/home.blade.php" />
@@ -350,6 +352,7 @@
         <option value="$PROJECT_DIR$/Laravel/resources/views/users/_follow_form.blade.php" />
         <option value="$PROJECT_DIR$/Laravel/resources/views/users/show.blade.php" />
         <option value="$PROJECT_DIR$/Laravel/app/Http/Controllers/FollowersController.php" />
+        <option value="$PROJECT_DIR$/Laravel/app/Models/User.php" />
       </list>
     </option>
   </component>
@@ -509,15 +512,7 @@
               <item name="laravel-weibo" type="462c0819:PsiDirectoryNode" />
               <item name="Laravel" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-weibo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-weibo" type="462c0819:PsiDirectoryNode" />
-              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel-weibo" type="b2602c69:ProjectViewProjectNode" />
@@ -593,16 +588,15 @@
       <workItem from="1601773538798" duration="13263000" />
       <workItem from="1601867721349" duration="8267000" />
       <workItem from="1601975136163" duration="7447000" />
-      <workItem from="1602072400465" duration="5651000" />
+      <workItem from="1602072400465" duration="6447000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61557000" />
+    <option name="totallyTimeSpent" value="62353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="785" y="1" width="1117" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.3090909" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -864,16 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/app/Models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="e#30#76#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Laravel/database/seeds/FollowersTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -1000,6 +984,16 @@
           <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/app/Models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#30#76#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
