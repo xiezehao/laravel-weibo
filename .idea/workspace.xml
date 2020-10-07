@@ -132,16 +132,16 @@
           <entry key="example" value="1" />
           <entry key="js" value="1" />
           <entry key="log" value="4" />
-          <entry key="php" value="101" />
+          <entry key="php" value="103" />
           <entry key="scss" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="43" />
+          <entry key="Blade" value="44" />
           <entry key="CSS" value="4" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="58" />
+          <entry key="PHP" value="59" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="SCSS" value="4" />
         </counts>
@@ -150,7 +150,7 @@
         <counts>
           <entry key="css" value="1" />
           <entry key="env" value="7" />
-          <entry key="php" value="3389" />
+          <entry key="php" value="3395" />
           <entry key="scss" value="9" />
           <entry key="stub" value="18" />
         </counts>
@@ -159,7 +159,7 @@
         <counts>
           <entry key="Blade" value="268" />
           <entry key="CSS" value="1" />
-          <entry key="PHP" value="3121" />
+          <entry key="PHP" value="3127" />
           <entry key="PLAIN_TEXT" value="25" />
           <entry key="SCSS" value="9" />
         </counts>
@@ -171,17 +171,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Laravel/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+            <state relative-caret-position="408">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Laravel/database/migrations/2020_10_07_120945_create_followers_table.php">
+        <entry file="file://$PROJECT_DIR$/Laravel/app/Policies/UserPolicy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="480">
+              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+              <folding>
+                <element signature="e#32#52#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Laravel/resources/views/users/_follow_form.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -218,23 +230,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Laravel/database/seeds/UsersTableSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-              <folding>
-                <element signature="e#7#38#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Laravel/resources/views/shared/_stats.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -251,11 +251,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Laravel/resources/views/users/show_follow.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="168">
+              <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -308,7 +308,6 @@
         <option value="$PROJECT_DIR$/Laravel/resources/views/users/index.blade.php" />
         <option value="$PROJECT_DIR$/Laravel/database/migrations/2020_10_04_065602_add_is_admin_to_users_table.php" />
         <option value="$PROJECT_DIR$/Laravel/database/seeds/UsersTableSeeder.php" />
-        <option value="$PROJECT_DIR$/Laravel/app/Policies/UserPolicy.php" />
         <option value="$PROJECT_DIR$/Laravel/resources/views/users/_user.blade.php" />
         <option value="$PROJECT_DIR$/Laravel/database/migrations/2020_10_04_072939_add_activation_to_users_table.php" />
         <option value="$PROJECT_DIR$/Laravel/database/factories/UserFactory.php" />
@@ -338,10 +337,12 @@
         <option value="$PROJECT_DIR$/Laravel/resources/views/static_pages/home.blade.php" />
         <option value="$PROJECT_DIR$/Laravel/resources/sass/app.scss" />
         <option value="$PROJECT_DIR$/Laravel/resources/views/users/show.blade.php" />
-        <option value="$PROJECT_DIR$/Laravel/routes/web.php" />
-        <option value="$PROJECT_DIR$/Laravel/resources/views/shared/_stats.blade.php" />
         <option value="$PROJECT_DIR$/Laravel/app/Http/Controllers/UsersController.php" />
         <option value="$PROJECT_DIR$/Laravel/resources/views/users/show_follow.blade.php" />
+        <option value="$PROJECT_DIR$/Laravel/app/Policies/UserPolicy.php" />
+        <option value="$PROJECT_DIR$/Laravel/resources/views/users/_follow_form.blade.php" />
+        <option value="$PROJECT_DIR$/Laravel/routes/web.php" />
+        <option value="$PROJECT_DIR$/Laravel/resources/views/shared/_stats.blade.php" />
       </list>
     </option>
   </component>
@@ -515,7 +516,7 @@
               <item name="Laravel" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -570,15 +571,15 @@
       <workItem from="1601773538798" duration="13263000" />
       <workItem from="1601867721349" duration="8267000" />
       <workItem from="1601975136163" duration="7447000" />
-      <workItem from="1602072400465" duration="3862000" />
+      <workItem from="1602072400465" duration="4858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59768000" />
+    <option name="totallyTimeSpent" value="60764000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="772" y="17" width="1117" height="1047" extended-state="0" />
+    <frame x="785" y="1" width="1117" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3090909" />
@@ -615,13 +616,6 @@
     <state x="1020" y="446" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599395743738" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Laravel/resources/views/users/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Laravel/resources/views/shared/_messages.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -682,13 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/app/Policies/UserPolicy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -944,20 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Laravel/resources/views/shared/_stats.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Laravel/app/Http/Controllers/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -970,8 +943,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Laravel/resources/views/users/show_follow.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="168">
+          <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/app/Policies/UserPolicy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding>
+            <element signature="e#32#52#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/resources/views/users/_follow_form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/resources/views/shared/_stats.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
         </state>
       </provider>
     </entry>
